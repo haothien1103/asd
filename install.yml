@@ -16,7 +16,7 @@ spec:
   strategy:
     jenkinsPipelineStrategy:
       env:
-      - name: APPLICATION_NAME
+      - name: index.html
         value: service-a 
       - name: PROJECT
         value: ctest
