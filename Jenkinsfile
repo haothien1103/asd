@@ -26,7 +26,7 @@ podTemplate(
 
     container(JNLP_CONTAINER) {
       stage('Creating Openshift Objects') {
-        sh "python pipeline/deploy.py project=${PROJECT} name=${APPLICATION_NAME}" 
+        sh "python pipeline/deploy.py project=${PROJECT} name=${index.html}" 
       }
         
       stage("Compile and Testing"){
